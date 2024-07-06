@@ -7,8 +7,8 @@ function Sidebar() {
   const pathname = usePathname();
   return (
     <>
-      <div className="w-40 bg-zinc-600 text-white h-screen">
-        <div>
+      <div className="w-40 bg-zinc-500 text-white h-[calc(100vh-70px)]">
+        <div >
           {pathname === "/" && <div>
             <Homesidemenu />
             </div>}

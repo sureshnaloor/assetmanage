@@ -1,11 +1,14 @@
 import React from 'react'
 import Link from 'next/link'
 
+
+
 function Homesidemenu() {
+    
   return (
-    <div>
+    <div className='flex flex-col justify-around gap-3 text-white mt-9 pl-3 font-thin text-sm'>
         <div className="flex items-center justify-between">
-            <Link href="/"> Dashboard</Link>
+            <Link href="/dashboard"> Dashboard</Link>
         </div>
         <div className="flex items-center justify-between">
             <Link href="/assets"> Assets</Link>
